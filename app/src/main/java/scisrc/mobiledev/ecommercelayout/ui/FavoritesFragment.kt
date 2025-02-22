@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import scisrc.mobiledev.ecommercelayout.databinding.FragmentFavoritesBinding
+import scisrc.mobiledev.ecommercelayout.ui.Item
 
 class FavoritesFragment : Fragment() {
 
