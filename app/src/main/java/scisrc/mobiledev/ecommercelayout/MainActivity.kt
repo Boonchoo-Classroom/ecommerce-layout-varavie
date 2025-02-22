@@ -10,7 +10,7 @@ import scisrc.mobiledev.ecommercelayout.databinding.ActivityMainBinding
 import scisrc.mobiledev.ecommercelayout.ui.CartFragment
 import scisrc.mobiledev.ecommercelayout.ui.FavoritesFragment
 import scisrc.mobiledev.ecommercelayout.ui.HomeFragment
-import scisrc.mobiledev.ecommercelayout.ui.ProductListFragment
+import scisrc.mobiledev.ecommercelayout.ui.CategoriesFragment
 import scisrc.mobiledev.ecommercelayout.ui.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         binding.navView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.nav_home -> replaceFragment(HomeFragment())
-                R.id.nav_Productlist -> replaceFragment(ProductListFragment())
+                R.id.nav_Productlist -> replaceFragment(CategoriesFragment())
                 R.id.nav_Cart -> replaceFragment(CartFragment())
                 R.id.nav_Profile -> replaceFragment(ProfileFragment())
                 R.id.nav_Favorites -> replaceFragment(FavoritesFragment())

@@ -1,7 +1,8 @@
-package scisrc.mobiledev.ecommercelayout.ui
+package scisrc.mobiledev.ecommercelayout.ui;
 
 data class Item(
     val name: String,
     val price: Double,
-    val imageUrl: String
+    val imageResId: String,
+    val category: Any
 )
