@@ -100,10 +100,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Quantum ปากกาลูกลื่น\n0.5 มม. หมึกน้ำเงิน\n ราคา 10.00 บาท"
+        android:text="ปากกาลูกลื่น 0.5 มม. หมึกน้ำเงิน\n\n ราคา 10.00 บาท"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recommend2" />
 
@@ -126,7 +126,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="RAM DDR4(3200) 32GB (16GBX2)\nKINGSTON FURY BEAST\n\nราคา 1,990.00 บาท"
+        android:text="ยางลบ แพ็ค 6 ชิ้น\n\nราคา 20.00 บาท"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
@@ -164,10 +164,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="1 TB SSD M.2 PCIe 4.0 WD BLUE \nSN580 NVMe\n\nราคา 1,750.00 บาท"
+        android:text="ไส้ดินสอ 2B 0.5 มม. แพ็ค 4 ชิ้น\n\nราคา 35.00 บาท"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pro2" />
 
